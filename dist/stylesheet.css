@@ -222,7 +222,7 @@ div.patternbackground {
  */
 
 @media (max-width: 840px) {
-nav {
+header li {
   display: block;
   }
 
