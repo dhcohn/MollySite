@@ -221,11 +221,9 @@ div.patternbackground {
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
 @media (max-width: 768px) {
-nav { 
-  display:block;
-  }
-  h3 {
-    font-size: 1 em
+header li {
+  display: block;
+  
   }
 
 }
