@@ -239,8 +239,12 @@ div.patternbackground {
     margin-top: -350px;
     /* Half the height */ } 
 
-h3{
+h3 {
   font-size: 1em;
+  }
+  
+  header li {
+    padding-top: 40px
   }
 }
 
