@@ -237,6 +237,11 @@ div.patternbackground {
     height: 700px;
     width: 100%;
     margin-top: -350px;
-    /* Half the height */ } }
+    /* Half the height */ } 
+
+h3{
+  font-size: 1em;
+  }
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
