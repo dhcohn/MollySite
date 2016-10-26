@@ -220,6 +220,13 @@ div.patternbackground {
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
+
+@media (max-width: 840px) {
+nav {
+  display: block;
+  }
+
+}
 @media (min-width: 1201px) {
   div.verticalcenter2 {
     position: absolute;
