@@ -220,6 +220,16 @@ div.patternbackground {
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
+@media (min-width: 768px) {
+nav { 
+  display:block;
+  }
+  h3 {
+    font-size: 1 em
+  }
+
+}
+
 @media (min-width: 1201px) {
   div.verticalcenter2 {
     position: absolute;
@@ -228,7 +238,8 @@ div.patternbackground {
     height: 500px;
     width: 100%;
     margin-top: -250px;
-    /* Half the height */ } }
+    /* Half the height */ } 
+}
 @media (max-width: 1200px) {
   div.verticalcenter2 {
     position: absolute;
@@ -239,13 +250,6 @@ div.patternbackground {
     margin-top: -350px;
     /* Half the height */ } 
 
-h3 {
-  font-size: 1em;
-  }
-  
-  nav {
-    display: block;
-  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
