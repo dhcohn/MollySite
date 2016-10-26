@@ -223,7 +223,7 @@ div.patternbackground {
 
 @media (max-width: 840px) {
 nav {
-  display: inline-block;
+  display: block;
   }
 
 }
