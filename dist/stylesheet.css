@@ -243,8 +243,8 @@ h3 {
   font-size: 1em;
   }
   
-  header li {
-    padding-top: 40px
+  nav {
+    display: block;
   }
 }
 
