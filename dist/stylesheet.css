@@ -223,7 +223,7 @@ div.patternbackground {
 
 @media (max-width: 840px) {
 header li {
-  display: block;
+  padding-top: 70px;
   }
 
 }
