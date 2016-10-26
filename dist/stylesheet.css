@@ -220,7 +220,7 @@ div.patternbackground {
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 header li {
  padding: 40px 20px 10px 10px;
  display:block;
