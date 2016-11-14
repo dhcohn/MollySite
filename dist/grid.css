@@ -33,6 +33,10 @@ html {
   margin-left: auto;
 }
 
+.container.move-up {
+margin-top: -70px;
+}
+
 
 
 /*
