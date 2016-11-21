@@ -236,7 +236,7 @@ h3 {
 
 }
 
-@media (min-width: 840px) {
+@media (min-width: 840px) and (orientation:landscape) {
 .container.move-up {
 margin-top: -70px;
 }
