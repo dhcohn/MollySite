@@ -243,9 +243,8 @@ margin-top: -70px;
 
  @media screen and (orientation:landscape) { 
 
-div.name {
-
-	display: none;
+.container.move-up {
+margin-top: -50px;
 }
 
 }
