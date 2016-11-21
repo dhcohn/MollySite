@@ -236,6 +236,13 @@ h3 {
 
 }
 
+@media (min-width: 840px) {
+.container.move-up {
+margin-top: -70px;
+}
+
+}
+
 @media (min-width: 1201px) {
   div.verticalcenter2 {
     position: absolute;
@@ -244,7 +251,9 @@ h3 {
     height: 500px;
     width: 100%;
     margin-top: -250px;
-    /* Half the height */ } }
+    /* Half the height */ } 
+}
+
 @media (max-width: 1200px) {
   div.verticalcenter2 {
     position: absolute;
