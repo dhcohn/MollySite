@@ -65,7 +65,7 @@ html {
   float: left;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 /*
@@ -100,9 +100,34 @@ html {
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1200px) {
+
+  .column.left {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 15px;
 }
-@media (max-width: 320px) {
+
+  .row.spread {
+  position: absolute;
+  margin-top: -300px;
+
+}
+
+}
+
+@media (max-width: 769px) {
+
+  .column.left {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+  .row.spread {
+        position: absolute;
+          margin-top: -300px;
+  }
+
 }
 
 
