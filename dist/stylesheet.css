@@ -167,11 +167,6 @@ div.hair {
 
 
 
-.haircut img {
-  opacity: .1; }
-  .haircut img:hover {
-    opacity: 1;
-    transition: all 1s ease; }
 
 div.haircutbackground {
   margin-left: auto;
