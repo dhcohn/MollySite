@@ -204,6 +204,7 @@ div.patternbackground {
   background-color: white;
   height: 400px;
   width: 300px;
+}
 
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
@@ -217,6 +218,7 @@ header li {
   }
   h3 {
     font-size: 1em;
+  }
   }
 =======
 
