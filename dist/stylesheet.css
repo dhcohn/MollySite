@@ -76,7 +76,7 @@ div.verticalcenter {
 div.covering {
   position: absolute;
   background-color: white;
-  opacity: .2;
+  opacity: .3;
   width: 100%;
   height: 300px; }
 
@@ -168,7 +168,7 @@ div.hair {
 
 
 .haircut img {
-  opacity: .3; }
+  opacity: .1; }
   .haircut img:hover {
     opacity: 1;
     transition: all 1s ease; }
@@ -179,7 +179,7 @@ div.haircutbackground {
   background-color: gray;
   height: 200px;
   width: 200px;
-  opacity: .7; }
+  opacity: .3; }
   div.haircutbackground:hover {
     opacity: 1;
     transition: all 1s ease; }    
@@ -190,7 +190,7 @@ div.sculpturebackground1 {
   background-color: gray;
   height: 400px;
   width: 300px;
-  opacity: .7; }
+  opacity: .3; }
   div.sculpturebackground1:hover {
     opacity: 1;
     transition: all 1s ease; }
@@ -201,7 +201,7 @@ div.sculpturebackground2 {
   background-color: gray;
   height: 225px;
   width: 300px;
-  opacity: .7; }
+  opacity: .3; }
   div.sculpturebackground2:hover {
     opacity: 1;
     transition: all 1s ease; }
@@ -212,7 +212,7 @@ div.patternbackground {
   background-color: gray;
   height: 400px;
   width: 300px;
-  opacity: .7; }
+  opacity: .3; }
   div.patternbacground:hover {
     opacity: 1;
     transition: all 1s ease; }
@@ -287,7 +287,25 @@ margin-top: -50px;
     height: 700px;
     width: 100%;
     margin-top: -350px;
+
+
     /* Half the height */ } 
+     div.covering {
+      display: none;
+     }
+     div.haircutbackground {
+      display: none;
+     }
+     div.sculpturebackground1{
+      display:none; 
+     }
+     div.sculpturebackground2{
+      display:none; 
+     }
+     div.patternbackground{
+      display:none; 
+     }
+   }
 <<<<<<< HEAD
 =======
 h1 {
