@@ -177,46 +177,34 @@ div.hair {
 div.haircutbackground {
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
+  background-color: white;
   height: 200px;
   width: 200px;
-  opacity: .3; }
-  div.haircutbackground:hover {
-    opacity: 1;
-    transition: all 1s ease; }    
+  opacity: 0; }  
 
 div.sculpturebackground1 {
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
+  background-color: white;
   height: 400px;
   width: 300px;
-  opacity: .3; }
-  div.sculpturebackground1:hover {
-    opacity: 1;
-    transition: all 1s ease; }
+  opacity: 1; }
+
 
 div.sculpturebackground2 {
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
+  background-color: white;
   height: 225px;
   width: 300px;
-  opacity: .3; }
-  div.sculpturebackground2:hover {
-    opacity: 1;
-    transition: all 1s ease; }
 
 div.patternbackground {
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
+  background-color: white;
   height: 400px;
   width: 300px;
-  opacity: .3; }
-  div.patternbacground:hover {
-    opacity: 1;
-    transition: all 1s ease; }
+}
 
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
@@ -230,6 +218,7 @@ header li {
   }
   h3 {
     font-size: 1em;
+  }
   }
 =======
 
@@ -290,22 +279,7 @@ margin-top: -50px;
     margin-top: -350px;
 
 
-    /* Half the height */ } 
-     div.covering {
-      display: none;
-     }
-     div.haircutbackground {
-      display: none;
-     }
-     div.sculpturebackground1{
-      display:none; 
-     }
-     div.sculpturebackground2{
-      display:none; 
-     }
-     div.patternbackground{
-      display:none; 
-     }
+    /* Half the height */ 
    }
 <<<<<<< HEAD
 =======
